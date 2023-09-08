@@ -1,0 +1,104 @@
+/* Basic Styling */
+body {
+    background-color: black;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+p {
+    color: white;
+}
+
+.flexbox__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.flexbox-square {
+    background-color: rgb(110, 110, 110);
+    max-height: 120px;
+    height: 78px;
+    width: 78px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-rectangle {
+    background-color: rgb(110, 110, 110);
+    width: 78px;
+    height: 100%;
+    border-radius: 4px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox__container {
+    border-radius: 8px;
+    width: 468px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    gap: 20px;
+}
+
+/* Individual Alignments For Each Box */
+#flexbox-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#flexbox-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#flexbox-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flexbox-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flexbox-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#flexbox-5-align {
+    align-self: flex-end;
+}
+
+#flexbox-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flexbox-6-grow {
+    flex-basis: 40%;
+}
